@@ -427,7 +427,7 @@ export default function Home({ onBookCall }) {
             {REVIEWS_ROW_1.map((n, i) => (
               <div key={i} className="testi__img-slot">
                 <img
-                  src={`${import.meta.env.VITE_R2_BASE_URL}/reviews/${n}.jpg`}
+                  src={`/reviews/${n}.jpg`}
                   alt={`Review ${n}`}
                   className="testi__img"
                 />
@@ -442,7 +442,7 @@ export default function Home({ onBookCall }) {
             {REVIEWS_ROW_2.map((n, i) => (
               <div key={i} className="testi__img-slot">
                 <img
-                  src={`${import.meta.env.VITE_R2_BASE_URL}/reviews/${n}.jpg`}
+                  src={`/reviews/${n}.jpg`}
                   alt={`Review ${n}`}
                   className="testi__img"
                 />

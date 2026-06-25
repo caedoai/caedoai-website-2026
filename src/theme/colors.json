@@ -1,0 +1,18 @@
+{
+  "primary": {
+    "lime": "#DBF232",
+    "limeDim": "rgba(219, 242, 50, 0.12)"
+  },
+  "secondary": {
+    "teal": "#165C54",
+    "tealDark": "#0D3D38",
+    "tealDeeper": "#0A2E2A"
+  },
+  "neutral": {
+    "ink": "#000000",
+    "fog": "#F0EDE6",
+    "fogDim": "rgba(240, 237, 230, 0.55)",
+    "fogFaint": "rgba(240, 237, 230, 0.12)",
+    "muted": "rgba(240, 237, 230, 0.38)"
+  }
+}

@@ -1,0 +1,70 @@
+:root {
+  --lime: #DBF232;
+  --teal: #165C54;
+  --teal-dark: #0D3D38;
+  --teal-deeper: #0A2E2A;
+  --ink: #000000;
+  --fog: #F0EDE6;
+  --fog-dim: rgba(240, 237, 230, 0.55);
+  --fog-faint: rgba(240, 237, 230, 0.12);
+  --muted: rgba(240, 237, 230, 0.38);
+  --lime-dim: rgba(219, 242, 50, 0.12);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--ink);
+  color: var(--fog);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+main {
+  padding-top: 100px;
+}
+
+@media (max-width: 1024px) {
+  main {
+    padding-top: 0px;
+  }
+}
+
+::selection {
+  background: var(--lime);
+  color: var(--ink);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--ink); }
+::-webkit-scrollbar-thumb { background: var(--teal); border-radius: 2px; }

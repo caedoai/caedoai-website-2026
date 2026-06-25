@@ -1,0 +1,48 @@
+# CaedoAi
+
+> CaedoAi is a web development studio specializing in custom websites and digital marketing solutions for home service businesses. We build high-converting websites for HVAC, Plumbing, Electric, and Roofing companies with SEO optimization, lead generation, and ongoing support included.
+
+## What we do
+
+- **Custom website development** — full-stack websites built for local service businesses, optimized for lead generation
+- **Local SEO & AEO** — search engine optimization and AI-powered search optimization to increase visibility
+- **Lead capture & management** — integrated contact forms, CRM setup, and lead tracking systems
+- **Content management** — blog posts, service pages, and content strategy tailored to home service verticals
+- **Mobile optimization** — responsive design ensuring perfect display on all devices
+- **Analytics & reporting** — monthly performance reports and conversion tracking
+
+## How we work
+
+- Transparent pricing with no hidden fees — monthly retainers tailored to your business size
+- Dedicated support — direct access to your development team
+- Unlimited revisions — iterative approach until you're satisfied
+- Fast turnaround — websites delivered within 2-4 weeks
+- Long-term partnership — we scale with your business
+
+## Packages
+
+- [Starter / Growth / Scale tiers](https://www.caedoai.com/packages) — custom pricing based on business needs
+
+## Portfolio
+
+- [Our Work](https://www.caedoai.com/work) — case studies and live examples of HVAC, Plumbing, Electric, and Roofing sites
+
+## Ideal clients
+
+- HVAC contractors and companies
+- Plumbing services
+- Electrical contractors
+- Roofing companies
+- Multi-service home maintenance businesses
+
+## Contact
+
+- [Book a discovery call](https://calendly.com/caedoai/30min)
+- [Contact form](https://www.caedoai.com/contact)
+- Email: caedoai@gmail.com
+- Instagram: [@caedoai](https://instagram.com/caedoai)
+
+## Optional
+
+- [Homepage](https://www.caedoai.com/)
+- [Full content dump for LLM ingestion](https://www.caedoai.com/llms-full.txt)

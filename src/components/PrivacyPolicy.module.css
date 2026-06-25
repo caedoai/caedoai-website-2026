@@ -1,0 +1,150 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal {
+  background: #1a1a1a;
+  color: #ffffff;
+  border-radius: 12px;
+  max-width: 700px;
+  max-height: 80vh;
+  width: 90%;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.closeBtn {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+  float: right;
+  margin-top: -5px;
+}
+
+.closeBtn:hover {
+  color: #fff;
+}
+
+.content {
+  padding: 40px 30px;
+}
+
+.content h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #00d4ff;
+}
+
+.content h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: #00d4ff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #ccc;
+}
+
+.content ul {
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.content li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+.content a {
+  color: #00d4ff;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.content a:hover {
+  opacity: 0.8;
+}
+
+.lastUpdated {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 12px;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .modal {
+    width: 95%;
+    max-height: 85vh;
+  }
+
+  .content {
+    padding: 30px 20px;
+  }
+
+  .content h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .content h2 {
+    font-size: 14px;
+  }
+
+  .content p,
+  .content li {
+    font-size: 13px;
+  }
+}

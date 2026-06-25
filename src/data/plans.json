@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Presence",
+    "descriptor": "For businesses that want to get discovered in their local market.",
+    "price": "$497",
+    "priceSuffix": "/mo",
+    "priceNote": "+ $997 setup",
+    "popular": false,
+    "stats": [
+      { "label": "Site live in", "value": "~7 days" },
+      { "label": "Google Ranking", "value": "SEO included" }
+    ],
+    "services": [
+      "Custom mobile-first website",
+      "Click-to-call above the fold on every mobile screen",
+      "Before/after photo gallery",
+      "SSL, hosting, and uptime monitoring",
+      "NAP citations across top directories (Yelp, BBB, ...)",
+      "LocalBusiness schema markup",
+      "Automated review generation (SMS sent to customers after job completion)",
+      "Monthly: GBP posts, photo uploads, keyword ranking report, technical SEO monitoring"
+
+    ],
+    "ctaLabel": "Get Started"
+  },
+  {
+      "name": "Authority",
+      "descriptor": "For businesses that want to excel in their niche and consistently grow their customer base.",
+      "price": "$797",
+      "priceSuffix": "/mo",
+      "priceNote": "+ $1,897 setup",
+      "label": "one-time setup",
+      "retainerPrice": "$897",
+      "retainerSuffix": "/mo",
+      "minimum": "6-month minimum",
+      "popular": true,
+      "stats": [
+        { "label": "Site live in", "value": "~11 days" },
+        { "label": "Google Ranking", "value": "SEO & AEO included" }
+      ],
+      "services": [
+        "Everything in Presence",
+        "Keyword-Optimized — service pages and city/area location pages, each ",
+        "Payment Integration & Invoicing",
+        "Full schema markup (LocalBusiness, Service, FAQ, Review)",
+        "AEO — FAQ sections structured for Google AI Overviews",
+        "Internal linking architecture",
+        "Monthly: Full GBP management, ranking report with position changes, quarterly seasonal content, AEO monitoring"
+      ],
+      "ctaLabel": "Get Started"
+    },
+    {
+        "name": "Dominance",
+        "descriptor": "For businesses that want to own their market on every search of their customers use.",
+        "price": "$1597",
+        "priceNote": "+ $3,497 setup",
+        "label": "one-time setup",
+        "popular": false,
+        "stats": [
+          { "label": "Site live in", "value": "~21 days" },
+          { "label": "GEO + AEO", "value": "Fully included" },
+          { "label": "Support", "value": "24/7 priority" },
+          { "label": "Mobile App", "value": "tap-to-pay" }
+        ],
+        "services": [
+          "Everything in Authority",
+          "White-label mobile app — custom invoices and tap-to-pay from your phone",
+          "Full-scale site — every service, every location, every high-intent search covered",
+          "Emergency service landing page",
+          "Maintenance plan sign-up page",
+          "Financing integration (GreenSky, EnerBank, or Synchrony Home)",
+          "Advanced invoicing manager — QuickBooks + CaedoAi payment system",
+          "Full GEO — content cited by ChatGPT, Perplexity, and Google AI Overviews",
+          "Advanced AEO — HowTo pages, FAQPage schema, structured Q&A",
+          "Google Local Service Ads setup + first month management",
+          "Quarterly competitor gap analysis",
+          "Monthly: Strategy call, CRO review, LSA management, GEO/AEO updates, competitor report"
+        ],
+        "ctaLabel": "Get Started"
+      }
+]

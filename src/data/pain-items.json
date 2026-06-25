@@ -1,0 +1,30 @@
+[
+  {
+    "num": "01",
+    "heading": "You hired a freelancer",
+    "chip": "Freelancer roulette",
+    "body": "And got back a templated website, most buttons don't work, takes an hour to load, needs a degree to navigate around, the phone didn't ring from it once.",
+    "result": "Another month lost."
+  },
+  {
+    "num": "02",
+    "heading": "You went with an agency",
+    "chip": "Agency queue",
+    "body": "And quickly realised you're client #47 in their queue. They quoted you $8,000 upfront. Then $2,500 a month. You signed a 12-month contract before you fully understood what you were buying.",
+    "result": "You're a ticket number, not a priority."
+  },
+  {
+    "num": "03",
+    "heading": "You tried building yourself",
+    "chip": "The DIY trap",
+    "body": "Spent a Sunday on Wix. Uploaded your logo. Hit publish and told yourself you'd fix it later. Months passed. The phone didn't ring from it once. Meanwhile your actual business is on hold because.",
+    "result": "Your business stalls while you edit."
+  },
+  {
+    "num": "04",
+    "heading": "You found 'the one'",
+    "chip": "The ghost",
+    "body": "Great freelancer, solid work — then they ghost you mid-project, raise their rate, or take on five other clients and suddenly you're no longer the priority. Again.",
+    "result": "Back to square one. Every time."
+  }
+]

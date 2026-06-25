@@ -1,12 +1,8 @@
-import { lazy, Suspense } from 'react'
+import { lazy, Suspense, useState, useRef, useEffect } from 'react'
 
-/**
- * Lazy load a component when it enters the viewport.
- * Wraps React.lazy + Suspense + IntersectionObserver pattern.
- */
 export function useLazyComponent(importFn, fallback = null) {
   const LazyComp = lazy(importFn)
-  
+
   return (props) => (
     <Suspense fallback={fallback || <div style={{ minHeight: '200px' }} />}>
       <LazyComp {...props} />
@@ -14,15 +10,12 @@ export function useLazyComponent(importFn, fallback = null) {
   )
 }
 
-/**
- * Wrap a component to only render when in viewport.
- */
 export function withViewportLazy(Component, threshold = 0.1) {
   return function ViewportLazyComponent(props) {
-    const [isVisible, setIsVisible] = React.useState(false)
-    const ref = React.useRef(null)
+    const [isVisible, setIsVisible] = useState(false)
+    const ref = useRef(null)
 
-    React.useEffect(() => {
+    useEffect(() => {
       const observer = new IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {

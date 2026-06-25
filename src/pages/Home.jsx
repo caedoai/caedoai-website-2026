@@ -5,6 +5,7 @@ import ticker from '../data/ticker.json'
 import whyItems from '../data/why-items.json'
 import faqs from '../data/faqs.json'
 import painItems from '../data/pain-items.json'
+import reviews from '../data/reviews.json'
 import PrivacyPolicy from '../components/PrivacyPolicy'
 import TermsOfService from '../components/TermsOfService'
 import './Home.css'
@@ -19,20 +20,10 @@ const WHY_ITEMS = whyItems
 const FAQS = faqs
 const PAIN_ITEMS = painItems
 
-// Review Images Configuration
-const TOTAL_REVIEWS = 14
-
-// Generate review array by splitting into two marquee rows
-const generateReviewArray = (start, count) => {
-  const arr = []
-  for (let i = 0; i < count * 2; i++) {
-    arr.push(((start + i) % TOTAL_REVIEWS) + 1)
-  }
-  return arr
-}
-
-const REVIEWS_ROW_1 = generateReviewArray(0, 6)
-const REVIEWS_ROW_2 = generateReviewArray(6, 6)
+// Generate marquee rows dynamically based on review count
+const TOTAL_REVIEWS = reviews.length
+const REVIEWS_ROW_1 = reviews.slice().concat(reviews.slice())
+const REVIEWS_ROW_2 = reviews.slice().reverse().concat(reviews.slice().reverse())
 
 function PainScroll() {
   const [active, setActive] = useState(0)
@@ -430,6 +421,7 @@ export default function Home({ onBookCall }) {
                   src={`/reviews/${n}.jpg`}
                   alt={`Review ${n}`}
                   className="testi__img"
+                  loading="lazy"
                 />
               </div>
             ))}
@@ -445,6 +437,7 @@ export default function Home({ onBookCall }) {
                   src={`/reviews/${n}.jpg`}
                   alt={`Review ${n}`}
                   className="testi__img"
+                  loading="lazy"
                 />
               </div>
             ))}
